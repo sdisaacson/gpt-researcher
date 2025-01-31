@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./static/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/site/styles.css" />
+    <title>File List</title>
+</head>
+<body>
+    <h1>Files in Outputs Directory</h1>
+    <br>
+    <ul>
+        {% for file in files %}
+        <li><a href="{{ file.url }}" target="_blank">{{ file.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

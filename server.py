@@ -124,7 +124,6 @@ async def list_files(request: Request):
     )
 
 
-
 @app.post("/api/multi_agents")
 async def run_multi_agents():
     return await execute_multi_agents(manager)

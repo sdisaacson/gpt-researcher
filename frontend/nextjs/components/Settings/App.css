@@ -40,7 +40,7 @@
 }
 
 .settings body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   line-height: 1.6;
   background-size: 200% 200%;
@@ -157,7 +157,7 @@
 
 .settings #output {
   height: 150px; /* Adjusted height */
-  font-family: 'Times New Roman', Times, "Courier New", serif;
+  font-family: 'Cormorant', Times, "Courier New", serif;
   overflow: auto;
   padding: 10px;
   margin-bottom: 10px;
