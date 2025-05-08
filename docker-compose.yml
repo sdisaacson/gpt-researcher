@@ -7,7 +7,7 @@ networks:
 
 services:
   gpt-researcher:
-    pull_policy: build
+    pull_policy: always
     image: gptresearcher/gpt-researcher
     build: ./
     environment: 
@@ -26,7 +26,7 @@ services:
     # Removed public port exposure
       
   gptr-nextjs:
-    pull_policy: build
+    pull_policy: always
     image: gptresearcher/gptr-nextjs
     stdin_open: true
     environment:
